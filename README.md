@@ -1,19 +1,15 @@
 ## Getting Started
 
-### Option 1: Docker
+There are two options for installation and setup. Once complete, the app will be available at [http://localhost:3000](http://localhost:3000).
+
+**Docker**
 
 1. Install Docker
 2. Build container: `docker build -t nextjs-docker .`
 3. Run container: `docker run -p 3000:3000 nextjs-docker`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Local (npm)**
 
-### Option 2: npm
+1. Install dependencies: `npm install`
+2. Run development server: `npm run dev`
 
-First, run the development server:
-
-```bash
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
