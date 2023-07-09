@@ -1,0 +1,23 @@
+export interface Prediction {
+    "gameid": number,
+    "source": string,
+    "err": string,
+    "confidence": string,
+    "hteamid": number,
+    "venue": string,
+    "ateamid": number,
+    "date": Date,
+    "updated": Date,
+    "hteam": string,
+    "round": number,
+    "ateam": string,
+    "hmargin": string,
+    "bits": string,
+    "tipteamid": number,
+    "tip": string,
+    "year": number,
+    "correct": number,
+    "sourceid": number,
+    "margin": string,
+    "hconfidence": string
+}
